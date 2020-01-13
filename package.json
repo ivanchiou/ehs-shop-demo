@@ -1,0 +1,46 @@
+{
+    "name": "ehs-shop",
+    "version": "0.0.1",
+    "description": "",
+    "author": "ehs",
+    "dependencies": {
+        "@svgr/webpack": "4.3.2",
+        "@zeit/next-sass": "1.0.1",
+        "cross-env": "5.2.0",
+        "identity-obj-proxy": "^3.0.0",
+        "intersection-observer": "0.7.0",
+        "isomorphic-fetch": "2.2.1",
+        "koa": "2.3.0",
+        "koa-bodyparser": "4.2.0",
+        "koa-connect": "2.0.0",
+        "koa-mount": "3.0.0",
+        "koa-router": "7.2.1",
+        "koa-static": "4.0.1",
+        "next": "latest",
+        "next-compose-plugins": "2.2.0",
+        "node-fetch": "2.6.0",
+        "node-sass": "4.9.2",
+        "prop-types": "15.6.2",
+        "react": "16.9.0",
+        "react-dom": "16.9.0",
+        "react-id-swiper": "2.3.2",
+        "swiper": "5.0.1",
+        "webpack-bundle-analyzer": "2.11.1"
+    },
+    "devDependencies": {
+        "@babel/core": "7.3.4",
+        "@testing-library/jest-dom": "^4.1.2",
+        "@testing-library/react": "9.3.0",
+        "babel-jest": "24.1.0",
+        "jest": "24.1.0"
+    },
+    "scripts": {
+        "dev": "node server.js -p $PORT",
+        "build": "next build",
+        "start": "NODE_ENV=production node server.js -p $PORT",
+        "test": "jest --watch",
+        "test:update": "jest --updateSnapshot",
+        "test:tdd": "jest Missing-Number.test.js"
+    },
+    "license": "ISC"
+}

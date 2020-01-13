@@ -1,0 +1,30 @@
+@import './../styles/_variables.scss';
+@import './../styles/modules/_sectionBox.scss';
+@import './../styles/modules/_swiper.scss';
+@import './../components/ProductList/ProductList.scss';
+@import './../components/ProductItem/ProductItem.scss';
+@import './../hocs/withPromoTag/withPromoTag.scss';
+.categoryList {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 15px 5px 10px;
+    li {
+        font-size: $s;
+        color: $gray3;
+        padding: 0 15px;
+        border-right: 1px solid $gray5;
+        &:last-child {
+            border-right-width: 0;
+        }
+    }
+}
+.checkoutBtn {
+    color: $white;
+    background-color: $orange1;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 1%;
+    left: 2%;
+    width: 96%;
+}

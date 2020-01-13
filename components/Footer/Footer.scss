@@ -1,0 +1,15 @@
+@import './../../styles/_variables.scss';
+
+.footer {
+    padding: 3%;
+    width: 100%;
+    background-color: $white;
+    font-size: $xxs;
+    color: $gray2;
+    p {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        line-height: 2em;
+    }
+}

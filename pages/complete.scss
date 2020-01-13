@@ -1,0 +1,32 @@
+@import './../styles/_variables.scss';
+@import './../styles/modules/_sectionBox.scss';
+
+.orderComplete {
+    composes: sectionBox;
+    color: $gray3;
+    font-size: $m;
+    text-align: center;
+    padding: 3%;
+    img {
+        margin: 3% auto;
+    }
+    strong {
+        font-size: $l;
+        line-height: 2em;
+    }
+}
+.note {
+    color: $gray1;
+    font-size: $xs;
+    padding: 3%;
+}
+.completeBtn {
+    color: $white;
+    background-color: $orange1;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 1%;
+    left: 2%;
+    width: 96%;
+}
